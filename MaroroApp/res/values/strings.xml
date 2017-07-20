@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maroro App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="chk_title">체크박스</string>
+    <string name="Chk_1">체크박스</string>
+    <string name="txt_radio">선택한 항목</string>
+    <string name="rdo_1">radio1</string>
+    <string name="rdo_2">radio2</string>
+    <string name="rdo_3">radio3</string>
+    <string name="rdo_4">radio4</string>
+    <string name="btn">togleeeeee</string>
+    <string name="btn_text">btn_txt</string>
+    <string name="btn_exit">exit</string>
+
+</resources>
