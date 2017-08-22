@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:fillAfter="true"  >
+    <!--android:interpolator="@android:anim/accelerate_decelerate_interpolator  이거는 점점빠르게 나타남-->
+    <!-- decelerate_interpolator는 점점 느리게 나타남 -->
+	<!-- accelerate_decelerate_interpolater:점점빠르다가점점느리게 나타남	 -->
+	<!-- anticipate_interpolater: 시작위치에서 조금 뒤로 당겨졌다가 시작 -->
+	<!-- overshoot_interpolator: 종료위치에서 조금 지나쳤다가 종료됨 -->
+	<!-- anticipate_overshoot_interpolator: 시작위치에서 조금 뒤로 ㄴ당겼다가 시작한 후, 종료위치에서 조금 지나쳤다가 종료됨 -->
+	<!-- bounce_interpolator: 종료위치에서 튀어오름 -->
+   <!--  fillAfter는 에니메이션 끝난 후에 유지할건지 false면 상태유지 안되고 되돌아감-->
+    <translate android:duration="500" android:fromXDelta="100%" 
+        android:toXDelta="0%" android:repeatCount="0"/>
+    <!-- translate는 이동시키는거  fromXDELta100%는 오른쪽 끝 0%는 왼쪽 끝 -->
+    
+
+</set>
